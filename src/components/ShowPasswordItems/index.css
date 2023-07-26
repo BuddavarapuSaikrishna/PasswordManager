@@ -1,0 +1,43 @@
+.password-list-items {
+  border: 1px solid #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: auto;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 576px) {
+  .password-list-items {
+    min-width: 300px;
+  }
+}
+
+.Content-Container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #ffffff;
+}
+
+.initial-name {
+  padding: 20px 25px;
+  border-radius: 50%;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+}
+.stars-image {
+  width: 100px;
+}
+
+.delete-button {
+  outline: none;
+  border: none;
+  background-color: #5763a5;
+  cursor: pointer;
+}
+.delete-image {
+  width: 30px;
+}
